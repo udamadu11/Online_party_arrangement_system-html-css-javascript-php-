@@ -1,0 +1,56 @@
+a {text-decoration:none}
+body{
+	background: url(../img/img13.jpg);
+	background-size: cover;
+}
+.top{
+	background-color: maroon;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.top h2{
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	font-family: Arial;
+	padding: 14px 16px;
+}
+
+.top h2:hover{
+	color: black;
+}
+.nav{
+	border-radius: 5px;
+	background-color: rgba(99, 148, 138,0.7);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.nav ul{
+
+	list-style: none;
+	text-align: center;
+
+}
+.nav ul li{
+	display: inline-block;
+	padding: 0 10px;
+	margin-top: 15px;
+}
+.nav ul li a{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	color: black;
+}
+.nav ul li a:hover {
+	color: red;
+}
+.sign{
+	float: right;
+	background-color: maroon;
+	color: white;
+}
+.sign:hover{
+	color: black;
+}

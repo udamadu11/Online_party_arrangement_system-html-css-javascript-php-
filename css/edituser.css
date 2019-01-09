@@ -1,0 +1,34 @@
+body{
+	font-size: 19px;
+}
+table{
+	width: 50%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+	border: none;
+	height: 30px;
+	padding: 2px;
+}
+tr:hover{
+	background: #F5F5F5;
+}
+.button{
+	background-color: maroon;
+	color: white;
+}
+.button:hover{
+	color: black;
+}
+.form{
+	margin-top: 200px;
+	margin-left: 500px;
+}
+.form2{
+	margin-left: 500px;
+}

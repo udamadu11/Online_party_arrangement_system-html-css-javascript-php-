@@ -1,0 +1,36 @@
+.clearfix{overflow: auto}
+a {text-decoration: none;}
+.nav{
+	width: 1000px;
+	margin: auto;
+}
+.bar{
+	border-radius: 10px;
+	margin-top: 10px;
+	background: linear-gradient(#8c8c8c, #595959, #1a1a1a);
+}
+.bar ul{
+	text-align: center;
+}
+.bar ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+.bar ul li a{
+	color: white;
+	padding: 0 60px;
+}
+.bar ul li a:hover{
+	color: black;
+}
+.sign{
+	list-style: none;
+	float: right;
+	color: white;
+	
+
+}
+.sign:hover{
+	color: black;
+}

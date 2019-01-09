@@ -1,0 +1,239 @@
+.clearfix{overflow: auto}
+body{
+	background-color: grey;
+}
+a {text-decoration: none;}
+.cover{
+	width: 1000px;
+	margin: auto;
+}
+.nav{
+	width: 1000px;
+	margin: auto;
+}
+.bar{
+	border-radius: 10px;
+	margin-top: 10px;
+	background: linear-gradient(#8c8c8c, #595959, #1a1a1a);
+}
+.bar ul{
+	text-align: center;
+}
+.bar ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+.bar ul li a{
+	color: white;
+	padding: 0 60px;
+}
+.bar ul li a:hover{
+	color: black;
+}
+.social{
+	float: left;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li{
+	display: inline;
+	padding: 0 5px;
+}
+.social ul li img:hover{
+	background: darksalmon;
+}
+.sign{
+	list-style: none;
+	float: right;
+	background-color: maroon;
+	color: white;
+
+}
+.sign:hover{
+	color: black;
+}
+
+.search{
+	float: right;
+	border-radius: 5px;
+	margin-top: 15px;
+	padding:0 10px;
+	margin:15px;
+	background:white;
+}
+.search button{
+	width:16px;
+	height:16px;
+	border:0;
+}
+.colomn{
+	width: 1000px;
+	background-color: #93a6ab;
+}
+.colomn h2{
+	text-align: center;
+}
+.colomn h4{
+	margin-top: -15px;
+	text-align: center;
+}
+.colomn1{
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+	background-color: #dad3d8;
+}
+.colomn1 img{
+	height: 100px;
+	width: 100px;
+}
+.colomn1 p{
+	font-size:12px;
+	height: 20px;
+}
+.colomn1 h2{
+	text-align: center;
+}
+.colomn2{
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+	background-color: #dad3d8;
+}
+.colomn2 img{
+	height: 100px;
+	width: 100px;
+}
+.colomn2 p{
+	font-size:12px;
+	height: 20px;
+}
+.colomn2 h2{
+	text-align: center;
+}
+.colomn3{
+	margin-left: 15px;
+	width: 313.33px;
+	float: left;
+	background-color: #dad3d8;
+}
+.colomn3 img{
+	height: 100px;
+	width: 100px;
+}
+.colomn3 p{
+	font-size:12px;
+	height: 50px;
+}
+.colomn3 h2{
+	text-align: center;
+}
+.feedback{
+	margin-top: 10px; 
+	background-color: grey;
+	float: right;
+	width: 320px;
+	height: 200px;
+}
+.aboutus{
+	background-color: grey;
+	margin-top: 10px;
+	width: 320px;
+	height: 200px;
+	float: left;
+}
+.aboutus p{
+	margin-left: 5px;
+	color: white;
+	font-size: 13px;
+}
+.aboutus h4{
+	text-align: center;
+}
+.contact{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 335px;
+	height: 200px;
+	background-color: grey;
+}
+.feedback h3{
+	text-align: center;
+	font-family: Arail;
+}
+.imh{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img5.jpg");
+	height: 400px;
+	width: 1000px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+.imhtext{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+.imhtext:hover{
+	color: black;
+}
+.imh button{
+	background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.imh button a{
+	
+	color: white;
+}
+.column {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 16px;
+    padding: 0 4px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+    padding: 0 12px;
+}
+.container::after, .row::after {
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: black;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}

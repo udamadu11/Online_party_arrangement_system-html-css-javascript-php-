@@ -1,0 +1,92 @@
+body{
+	background: url(../img/img7.jpg);
+	background-size: cover;
+}
+.registration{
+	width: 500px;
+	height: 400px;
+	margin-top: 200px;
+	margin-left: 450px;
+	background: rgba(241, 148, 138,0.7);
+	border-radius: 30px;
+}
+.registration img{
+	margin-top: -60px;
+	margin-bottom: 30px;
+	margin-left: 160px;
+	border-radius: 40px;
+}
+.registration img:hover{
+	background-color: #515a5a;
+}
+.registration table{
+	border-radius: 10px;
+	color: white;
+	background: rgba(  192, 57, 43  ,0.6);
+}
+input[type="text"],input[type="name"]{
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 40px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+input[type="email"],input[type="email"]{
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 40px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+input[type="password"],input[type="password"]{
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 40px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+input[type="password"],input[type="password2"]{
+	width: 200px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 40px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+input[type="submit"]{
+	width: 60px;
+	height: 30px;
+	background-color: maroon;
+	color: white;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-left: 5px;
+}input[type="reset"]{
+	width: 60px;
+	height: 30px;
+	background-color: maroon;
+	color: white;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.registration h3{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.registration a{
+	color: darkblue;
+	font-size: 18px;
+}
+.registration a:hover{
+	color: black;
+}

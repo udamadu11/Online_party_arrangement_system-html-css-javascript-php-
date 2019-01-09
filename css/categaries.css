@@ -1,0 +1,53 @@
+a{text-decoration: none;}
+.cover{
+	width: 1000px;
+	margin: auto;
+}
+.cover h2{
+	text-align: center;
+}
+body{
+	background: url(../img/img16.jpg);
+	background-size: cover;
+}
+table th img{
+	width: 400px;
+	height: 300px;
+}
+
+table tr th h2{
+	color: green;
+
+}
+.bar{
+	height: 50px;
+	margin-top: 10px;
+	background: linear-gradient(#8c8c8c, #595959, #1a1a1a);
+}
+.bar ul{
+	text-align: center;
+}
+.bar ul li{
+	margin-top: 5px;
+	display: inline-block;
+	list-style: none;
+
+}
+.bar ul li a{
+	color: white;
+	padding: 0 60px;
+}
+.bar ul li a:hover{
+	color: black;
+}
+.sign{
+	list-style: none;
+	float: right;
+	background-color: maroon;
+	color: white;
+	
+
+}
+.sign:hover{
+	color: black;
+}

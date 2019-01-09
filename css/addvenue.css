@@ -1,0 +1,32 @@
+body{
+	background: rgba(30,10,60,0.4);
+}
+form{
+
+	width: 500px;
+	height: 300px;
+	margin-top: 200px;
+	margin-left: 450px;
+	background: rgba(20,20,99,0.5);
+}
+form img{
+	margin-top: -60px;
+	margin-bottom: 30px;
+	margin-left: 170px;
+}
+form img:hover{
+	background-color: pink;
+
+}
+table{
+	width: 400px;
+	margin-left: 20px;
+	color:  black;
+	background-color: rgba(20,20,99,0.5);
+	margin-right: 20px;
+}
+
+h2{
+	margin-left: 20px;
+	color: white;
+}

@@ -1,0 +1,25 @@
+a{text-decoration: none}
+body{
+	background: url(../img/img12.jpg);
+	background-size: cover;
+}
+.nav{
+	border-radius: 10px;
+	background-color: maroon;
+	float: right;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	padding: 0 10px;
+	display: inline-block;
+	margin-right: 5px;
+	border-right: 1px solid white;
+}
+.nav ul li a{
+	color: white;
+}
+.nav ul li a:hover{
+	color: black;
+}

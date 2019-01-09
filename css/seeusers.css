@@ -1,0 +1,74 @@
+body{
+	font-size: 19px;
+}
+table{
+	width: 50%;
+	margin: 30px auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+tr{
+	border-bottom: 1px solid #cbcbcb;
+}
+th, td{
+	border: none;
+	height: 30px;
+	padding: 2px;
+}
+tr:hover{
+	background: #F5F5F5;
+}
+.edit_btn{
+	text-decoration: none;
+	padding: 2px 5px;
+	background: #2E8B57;
+	color: white;
+	border-radius: 3px;
+}
+.dele_btn{
+	text-decoration: none;
+	padding: 2px 5px;
+	background: #800000;
+	color: white;
+}
+.form1{
+	width: 350px;
+	height: 320px;
+	margin-top: 150px;
+	margin-left: 450px;
+	background: rgba(241, 148, 138,0.7);
+	
+}
+.form1 h2{
+	background-color: aqua;
+	text-align: center;
+}
+.input{
+	margin: 10px 0px 10px 0px;
+}
+.input label{
+	display: inline-block;
+	text-align: center;
+	margin: 3px;
+}
+.input input{
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.btn{
+	padding: 10px;
+	font-size: 15px;
+	color: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+	background-color: red;
+
+}
+.btn:hover{
+	color: black;
+}
+
